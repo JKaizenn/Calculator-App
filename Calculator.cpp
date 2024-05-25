@@ -24,7 +24,7 @@ void Calculator::run() {
 
 // Run the calculator using a file input
 void Calculator::runFromFile(const std::string &inputFile,
-                             const std::string &outputFile) {
+const std::string &outputFile) {
   std::ifstream infile(inputFile);
   std::ofstream outfile(outputFile);
 
